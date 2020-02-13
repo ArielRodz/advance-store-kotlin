@@ -24,12 +24,6 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
 
-            <!-- <ImageView
-                android:id="@+id/imgDetail"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_launcher_foreground" /> -->
 
             <androidx.appcompat.widget.Toolbar
 
@@ -58,12 +52,9 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
 
         >
-        <include layout="@layout/card_store_detail"/>
 
-        <!-- <com.google.android.gms.maps.MapView
-            android:id="@+id/mapView"
-            android:layout_width="match_parent"
-            android:layout_height="243dp" /> -->
+
+        <include layout="@layout/card_store_detail" />
 
         <View
             android:layout_width="match_parent"
@@ -71,6 +62,14 @@
             android:layout_marginTop="16dp"
             android:background="@color/Lines" />
 
+
+        <ImageView
+            android:id="@+id/imgDetail"
+            android:layout_width="125dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_launcher_foreground" />
 
         <TextView
             android:id="@+id/txtCityDetail"

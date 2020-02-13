@@ -27,25 +27,17 @@ class DetailActivity : AppCompatActivity(){
 
         val store: StoresItem = intent.getParcelableExtra("store")
 
-       /* val imgUri = store.storeLogoURL!!.toUri().buildUpon().scheme("http").build()
+        val imgUri = store.storeLogoURL!!.toUri().buildUpon().scheme("http").build()
         Glide.with(this)
             .load(imgUri)
             .apply(
                 RequestOptions()
                     .placeholder(R.drawable.loading_animation)
                     .error(R.drawable.ic_broken_image))
-            .into(imgDetail)*/
+            .into(imgDetail)
 
 
-        // Add a marker in Sydney and move the camera
 
-
-        /*mapView.onCreate(savedInstanceState)
-        mapView.getMapAsync{map ->
-            val sydney = LatLng(151.0, 151.0)
-            map.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-            map.moveCamera(CameraUpdateFactory.newLatLng(sydney))
-        }*/
 
         txtNameDetail.text = store.name.toString()
         txtInstructionsDetail.text = store.address.toString()
