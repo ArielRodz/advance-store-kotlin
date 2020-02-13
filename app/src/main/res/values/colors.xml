@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0e177a</color>
+    <color name="colorPrimaryDark">#0e177a   </color>
+    <color name="colorAccent">#4d3faa</color>
+
+
+
+    <color name="backGround">#E0E0E0</color>
+    <color name="ligtGreyLine">#ededed</color>
+
+    <color name="Green">#4CAF50</color>
+    <color name="Red">#F44336</color>
+    <color name="Yellow">#FFEB3B</color>
+
+    <color name="Lines">#BDBDBD</color>
+    <color name="progess">#6FCF97</color>
+    <color name="overText">#F2F2F2</color>
+
+
+    <color name="shadow">#994f83cc</color>
+    <color name="black">#000000</color>
+
+
+
+    <color name="White">#FFFFFF</color>
+    <color name="WhiteTrans">#80ffffff</color>
+    <color name="Gray">#e0e0e0</color>
+    <color name="Black">#000</color>
+</resources>
